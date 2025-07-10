@@ -55,3 +55,7 @@ console.log(m, n); // Output: 6 5
 let p = 10;
 let q = ++p;
 console.log(p, q); // Output: 11 11
+
+let r=34;
+console.log(r++); // Output: 34
+console.log(r); // Output: 35
