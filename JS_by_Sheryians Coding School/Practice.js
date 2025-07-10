@@ -36,3 +36,9 @@ let grade = score >= 90 ? "A" :
             score >= 70 ? "C" :
             score >= 60 ? "D" : "Fail";
 console.log(score + " is grade " + grade);
+
+// Ternary and And operator example (condition1 && condition2 ? expr1 : expr2)
+let loggedIn = true;
+let hasToken = false;
+let access = loggedIn && hasToken ? "Access granted" : "Access denied";
+console.log(access);
