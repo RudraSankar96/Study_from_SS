@@ -51,3 +51,7 @@ console.log(a); // Output: 50
 let m = 5;
 let n = m++;
 console.log(m, n); // Output: 6 5
+
+let p = 10;
+let q = ++p;
+console.log(p, q); // Output: 11 11
