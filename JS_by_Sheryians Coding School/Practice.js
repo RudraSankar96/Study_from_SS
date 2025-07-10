@@ -47,3 +47,7 @@ console.log(access);  //output: Access denied
 let a =49;
 a++;
 console.log(a); // Output: 50
+
+let m = 5;
+let n = m++;
+console.log(m, n); // Output: 6 5
