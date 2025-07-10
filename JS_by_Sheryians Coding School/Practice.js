@@ -41,4 +41,9 @@ console.log(score + " is grade " + grade);
 let loggedIn = true;
 let hasToken = false;
 let access = loggedIn && hasToken ? "Access granted" : "Access denied";
-console.log(access);
+console.log(access);  //output: Access denied
+
+// +operator example (increment)
+let a =49;
+a++;
+console.log(a); // Output: 50
