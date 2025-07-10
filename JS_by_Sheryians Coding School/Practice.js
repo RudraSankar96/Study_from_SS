@@ -59,3 +59,8 @@ console.log(p, q); // Output: 11 11
 let r=34;
 console.log(r++); // Output: 34
 console.log(r); // Output: 35
+
+let s=5;
+let result= s++ + ++s;
+console.log(result); 
+
