@@ -64,3 +64,10 @@ let s=5;
 let result= s++ + ++s;
 console.log(result); 
 
+// functions example
+let likes = 100;
+function likepost() {
+    return ++likes;
+}
+console.log(likepost());  // Output: 101
+console.log(likes); // Output: 101
