@@ -8,3 +8,14 @@ if(x> 5 && y < 25){
 else{
     console.log("B");
 }
+
+// Or operator example (||)
+let isAdmin = true;
+let isLoggedIn = false;
+
+if(isAdmin || isLoggedIn){
+    console.log("Access granted");
+}
+else{
+    console.log("Access denied");
+}
