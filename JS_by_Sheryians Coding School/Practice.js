@@ -19,3 +19,12 @@ if(isAdmin || isLoggedIn){
 else{
     console.log("Access denied");
 }
+
+// Not operator example (!)
+let temp = 35;
+
+if(!(temp < 30)){
+    console.log("It's hot outside");
+} else {
+    console.log("It's cool outside");
+}
