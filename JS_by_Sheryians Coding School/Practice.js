@@ -126,7 +126,6 @@ function rps(user, computer) {
   if (user === "rock" && computer === "scissor") return "Useer Win";
   if (user === "paper" && computer === "rock") return "User Win";
   if (user === "scissor" && computer === "paper") return "User Win";
-
   return "Computer Win";
 }
 console.log(rps("rock", "paper"));
