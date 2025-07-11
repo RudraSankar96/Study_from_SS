@@ -157,3 +157,24 @@ function isLeapYear(year){
 }
 console.log(isLeapYear(2025));
 console.log(isLeapYear(2024));
+
+// Create a simple calulator using if else if.
+
+let c = 12;
+let b = 89;
+let operator = "/";
+if( operator === "+" ){
+    console.log(a + b);
+}
+else if (operator === "-"){
+    console.log(a -b);
+}
+else if (operator ==="*"){
+    console.log(a * b);
+}
+else if (operator === "/"){
+    console.log(a / b);
+}
+else{
+    console.log("Invalid Operation");
+}
