@@ -128,4 +128,12 @@ function rps(user, computer) {
   if (user === "scissor" && computer === "paper") return "User Win";
   return "Computer Win";
 }
-console.log(rps("rock", "paper"));
+console.log(rps("rock", "paper")); 
+
+// check even or odd number example
+function isEvenOrOdd(num){
+    if (num % 2 === 0) return "Even Number";
+    else return "odd Number"
+}
+console.log(isEvenOrOdd(25));
+
