@@ -34,3 +34,9 @@ while( m<= 15){
 for (let k =1; k<=10; k++){
     console.log(`5 * ${k} = ${ 5 * k}`);
 }
+
+// 6. Find the sum of numbers from 1 to 100 using a for loop.
+ let sum= 0;
+ for (let e=1; e<=100; e++){
+    sum=sum+ e;}
+    console.log(sum);
