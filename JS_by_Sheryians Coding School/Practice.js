@@ -128,32 +128,30 @@ function rps(user, computer) {
   if (user === "scissor" && computer === "paper") return "User Win";
   return "Computer Win";
 }
-console.log(rps("rock", "paper")); 
+console.log(rps("rock", "paper"));
 
 // check even or odd number example
-function isEvenOrOdd(num){
-    if (num % 2 === 0) return "Even Number";
-    else return "odd Number"
+function isEvenOrOdd(num) {
+  if (num % 2 === 0) return "Even Number";
+  else return "odd Number";
 }
 console.log(isEvenOrOdd(25));
 
 // Check if person is eligible to vote or not
 let age = 14;
-if(age >=18){
-    console.log("You are eligible to vote");
-}
-else{
-    console.log("You are not eligible to vote");
+if (age >= 18) {
+  console.log("You are eligible to vote");
+} else {
+  console.log("You are not eligible to vote");
 }
 
 // Check a year is leap year or not
-function isLeapYear(year){
-    if ((year % 4 === 0 && year % 100 !==0 )|| year % 400 === 0) {
-        return "Leap Year";
-    }
-    else{
-        return "Not a Leap Year";
-    }
+function isLeapYear(year) {
+  if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+    return "Leap Year";
+  } else {
+    return "Not a Leap Year";
+  }
 }
 console.log(isLeapYear(2025));
 console.log(isLeapYear(2024));
@@ -163,18 +161,14 @@ console.log(isLeapYear(2024));
 let c = 12;
 let b = 89;
 let operator = "/";
-if( operator === "+" ){
-    console.log(a + b);
-}
-else if (operator === "-"){
-    console.log(a -b);
-}
-else if (operator ==="*"){
-    console.log(a * b);
-}
-else if (operator === "/"){
-    console.log(a / b);
-}
-else{
-    console.log("Invalid Operation");
+if (operator === "+") {
+  console.log(a + b);
+} else if (operator === "-") {
+  console.log(a - b);
+} else if (operator === "*") {
+  console.log(a * b);
+} else if (operator === "/") {
+  console.log(a / b);
+} else {
+  console.log("Invalid Operation");
 }
