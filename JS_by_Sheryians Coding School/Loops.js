@@ -49,3 +49,14 @@ for (let p = 1; p <= 50; p++) {
     console.log(p);
   }
 }
+
+// 8 . Ask the user for a number and  print wheter each number from 1 to that number is even or odd.
+
+let val= prompt("Enter a numbrer:");
+for ( let l=1; l<= val ; l++){
+    if (l % 2 === 0) {
+        console.log(`${l} is even`);
+    } else {
+        console.log(`${l} is odd`);
+    }
+}
