@@ -66,3 +66,11 @@ for (let p = 1; p <= 50; p++) {
         console.log(`${q} is divisible by both 3 and 5`);
     }
  }
+// Now Break And Continue.
+// 10. stop at first multiple of 7.
+for( let r =1; r<=100; r++ ){
+    console.log(r);
+    if( r % 7 === 0){
+        break;
+    }
+}
