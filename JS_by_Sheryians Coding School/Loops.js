@@ -52,11 +52,17 @@ for (let p = 1; p <= 50; p++) {
 
 // 8 . Ask the user for a number and  print wheter each number from 1 to that number is even or odd.
 
-let val= prompt("Enter a numbrer:");
-for ( let l=1; l<= val ; l++){
-    if (l % 2 === 0) {
-        console.log(`${l} is even`);
-    } else {
-        console.log(`${l} is odd`);
+// let val= prompt("Enter a numbrer:");
+// for ( let l=1; l<= val ; l++){
+//     if (l % 2 === 0) {
+//         console.log(`${l} is even`);
+//     } else {
+//         console.log(`${l} is odd`);
+//     }
+// }
+// 9. Count how many numbers between 1 to 100 are divisible by 3 & 5.
+ for ( let q=1; q<= 100; q++ ){
+    if( q % 3 === 0 && q % 5 === 0){
+        console.log(`${q} is divisible by both 3 and 5`);
     }
-}
+ }
