@@ -14,3 +14,10 @@ while (j >= 1){
     console.log(j);
     j--;
 }
+
+// 3. Print even numbers from 1 to 20 using for loop.
+for ( let n=1; n<=20; n++){
+    if (n % 2 === 0){
+        console.log(n);
+    }
+}
