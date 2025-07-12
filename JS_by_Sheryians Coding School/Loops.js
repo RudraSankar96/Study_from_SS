@@ -40,3 +40,10 @@ for (let k =1; k<=10; k++){
  for (let e=1; e<=100; e++){
     sum=sum+ e;}
     console.log(sum);
+
+// 7. Print all numbers between 1 to 50 taht are divisible by 3.
+for (let p=1; p<=50; p++){
+    if (p % 3 === 0){
+        console.log(p);
+    }
+}
