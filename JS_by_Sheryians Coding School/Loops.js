@@ -92,4 +92,18 @@ for (let s = 1; s <= 20; s++) {
 }
 console.log("--------------"); // Separator line
 
-// 
+// Print the first 5 odd numbers from 1 to 100 using a for loop. Use a break statement to stop the loop after printing 5 odd numbers.
+// Expected output:
+// 1 3 5 7 9
+let count = 0;
+for (let t = 1; t <= 100; t++) {
+  if (t % 2 != 0) {
+    count++;
+    console.log(t);
+  }
+  if (count === 5) {
+    break; // Stop after printing 5 odd numbers
+  }
+}
+console.log("--------------"); // Separator line
+
