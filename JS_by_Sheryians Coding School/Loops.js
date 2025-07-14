@@ -107,3 +107,14 @@ for (let t = 1; t <= 100; t++) {
 }
 console.log("--------------"); // Separator line
 
+// Pattern Practice (using nested loops)
+
+for(let u=1; u <= 5; u++){
+  let star=``;
+  for ( let v=1; v<= u; v ++){
+    star += `*`;
+  }
+  console.log(star);
+}
+console.log("--------------");
+
