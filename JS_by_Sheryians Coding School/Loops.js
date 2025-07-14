@@ -214,3 +214,13 @@ for (let f = 1; f <= 10; f++) {
   console.log(`${f}² = ${f * f}`);
 }
 console.log("--------------"); // Separator line
+
+// Print only multiples of 3 from 1 to 30 using while loop.
+let multipleOfThree = 1;
+while (multipleOfThree <= 30) {
+  if (multipleOfThree % 3 === 0) {
+    console.log(multipleOfThree);
+  }
+  multipleOfThree++;
+}
+console.log("--------------"); // Separator line
