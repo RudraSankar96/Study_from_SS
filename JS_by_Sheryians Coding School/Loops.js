@@ -92,7 +92,7 @@ for (let s = 1; s <= 20; s++) {
 }
 console.log("--------------"); // Separator line
 
-// Print the first 5 odd numbers from 1 to 100 using a for loop. Use a break statement to stop the loop after printing 5 odd numbers.
+// 12. Print the first 5 odd numbers from 1 to 100 using a for loop. Use a break statement to stop the loop after printing 5 odd numbers.
 // Expected output:
 // 1 3 5 7 9
 let count = 0;
@@ -107,7 +107,7 @@ for (let t = 1; t <= 100; t++) {
 }
 console.log("--------------"); // Separator line
 
-// Pattern Practice (using nested loops)
+// 13.Pattern Practice (using nested loops)
 
 for(let u=1; u <= 5; u++){
   let star=``;
@@ -118,7 +118,7 @@ for(let u=1; u <= 5; u++){
 }
 console.log("--------------");
 
-// Print a square of stars (5x5).
+//14. Print a square of stars (5x5).
 for(let w=1; w <= 5; w++){
   let square=``;
   for ( let x=1; x<= 5; x ++){
@@ -128,7 +128,7 @@ for(let w=1; w <= 5; w++){
 }
 console.log("--------------"); // Separator line
 
-// Print numbers in a triangle pattern
+//15. Print numbers in a triangle pattern
 for(let y=1; y <= 5; y++){
   let number=``;
   for ( let z=1; z<= y; z ++){
@@ -138,7 +138,7 @@ for(let y=1; y <= 5; y++){
 }
 console.log("--------------");
 
-// Print a right-angled triangle of stars
+//16. Print a right-angled triangle of stars
 for(let a=1; a <= 5; a++){
   let rightTriangle=``;
   for ( let b=1; b<= a; b ++){
@@ -148,7 +148,7 @@ for(let a=1; a <= 5; a++){
 }
 console.log("--------------");
 
-// Find the factorial of a number (e.g., 5! = 120).
+//17. Find the factorial of a number (e.g., 5! = 120).
 let factorial = 1;
 let num = 5; // Change this to any number you want to find the factorial of
 for (let c = 1; c <= num; c++) {
@@ -157,7 +157,7 @@ for (let c = 1; c <= num; c++) {
 console.log(`Factorial of ${num} is ${factorial}`);
 console.log("--------------"); // Separator line
 
-// Reverse a number using loop (e.g., input 123 → output 321).
+//18. Reverse a number using loop (e.g., input 123 → output 321).
 
 let inputNumber = 765; // Change this to any number you want to reverse
 let reversedNumber = 0;
@@ -169,7 +169,7 @@ while (inputNumber > 0) {
 console.log(`Reversed number is ${reversedNumber}`);
 console.log("--------------"); // Separator line
 
-// Check if a number is a prime using loop.
+// 19.Check if a number is a prime using loop.
 let primeCheckNumber = 29; // Change this to any number you want to check
 let isPrime = true;
 for (let d = 2; d <= Math.sqrt(primeCheckNumber); d++) {
@@ -186,7 +186,7 @@ else {
 }
 console.log("--------------"); // Separator line
 
-// Generate the Fibonacci series up to n terms.
+//20. Generate the Fibonacci series up to n terms.
 let n = 10; // Change this to the number of terms you want in the Fibonacci series
 let a = 0, b = 1;
 console.log(`Fibonacci series up to ${n} terms:`);
@@ -198,7 +198,7 @@ for (let e = 1; e <= n; e++) {
 }
 console.log("--------------"); // Separator line.
 
-// Count how many digits are there in a number.
+//21. Count how many digits are there in a number.
 let numberToCount = 123456; // Change this to any number you want to count digits of
 let digitCount = 0;
 while (numberToCount > 0) {
@@ -208,14 +208,14 @@ while (numberToCount > 0) {
 console.log(`Number of digits: ${digitCount}`);
 console.log("--------------"); // Separator line
 
-// Print the squares of numbers from 1 to 10 (e.g., 1², 2², …).
+//22. Print the squares of numbers from 1 to 10 (e.g., 1², 2², …).
 
 for (let f = 1; f <= 10; f++) {
   console.log(`${f}² = ${f * f}`);
 }
 console.log("--------------"); // Separator line
 
-// Print only multiples of 3 from 1 to 30 using while loop.
+// 23.sPrint only multiples of 3 from 1 to 30 using while loop.
 let multipleOfThree = 1;
 while (multipleOfThree <= 30) {
   if (multipleOfThree % 3 === 0) {
