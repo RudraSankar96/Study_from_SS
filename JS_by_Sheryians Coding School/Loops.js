@@ -185,3 +185,15 @@ else {
   console.log(`${primeCheckNumber} is not a prime number.`);
 }
 console.log("--------------"); // Separator line
+
+// Generate the Fibonacci series up to n terms.
+let n = 10; // Change this to the number of terms you want in the Fibonacci series
+let a = 0, b = 1;
+console.log(`Fibonacci series up to ${n} terms:`);
+for (let e = 1; e <= n; e++) {
+  console.log(a);
+  let nextTerm = a + b; // Calculate the next term
+  a = b; // Update a to the next term
+  b = nextTerm; // Update b to the next term
+}
+console.log("--------------"); // Separator line.
