@@ -156,3 +156,15 @@ for (let c = 1; c <= num; c++) {
 }
 console.log(`Factorial of ${num} is ${factorial}`);
 console.log("--------------"); // Separator line
+
+// Reverse a number using loop (e.g., input 123 → output 321).
+
+let inputNumber = 765; // Change this to any number you want to reverse
+let reversedNumber = 0;
+while (inputNumber > 0) {
+  let digit = inputNumber % 10; // Get the last digit
+  reversedNumber = reversedNumber * 10 + digit; // Build the reversed number
+  inputNumber = Math.floor(inputNumber / 10); // Remove the last digit
+}
+console.log(`Reversed number is ${reversedNumber}`);
+console.log("--------------"); // Separator line
