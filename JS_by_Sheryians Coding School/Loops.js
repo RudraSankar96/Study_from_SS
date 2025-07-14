@@ -168,3 +168,20 @@ while (inputNumber > 0) {
 }
 console.log(`Reversed number is ${reversedNumber}`);
 console.log("--------------"); // Separator line
+
+// Check if a number is a prime using loop.
+let primeCheckNumber = 29; // Change this to any number you want to check
+let isPrime = true;
+for (let d = 2; d <= Math.sqrt(primeCheckNumber); d++) {
+  if (primeCheckNumber % d === 0) {
+    isPrime = false; // If divisible by any number other than 1 and itself, it's not prime
+    break;
+  }
+}
+if (isPrime && primeCheckNumber > 1) {
+  console.log(`${primeCheckNumber} is a prime number.`);
+}
+else {
+  console.log(`${primeCheckNumber} is not a prime number.`);
+}
+console.log("--------------"); // Separator line
