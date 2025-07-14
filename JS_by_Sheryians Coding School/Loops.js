@@ -118,3 +118,12 @@ for(let u=1; u <= 5; u++){
 }
 console.log("--------------");
 
+// Print a square of stars (5x5).
+for(let w=1; w <= 5; w++){
+  let square=``;
+  for ( let x=1; x<= 5; x ++){
+    square += `* `;
+  }
+  console.log(square);
+}
+console.log("--------------"); // Separator line
