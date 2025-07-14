@@ -197,3 +197,13 @@ for (let e = 1; e <= n; e++) {
   b = nextTerm; // Update b to the next term
 }
 console.log("--------------"); // Separator line.
+
+// Count how many digits are there in a number.
+let numberToCount = 123456; // Change this to any number you want to count digits of
+let digitCount = 0;
+while (numberToCount > 0) {
+  digitCount++;
+  numberToCount = Math.floor(numberToCount / 10); // Remove the last digit
+}
+console.log(`Number of digits: ${digitCount}`);
+console.log("--------------"); // Separator line
