@@ -207,3 +207,10 @@ while (numberToCount > 0) {
 }
 console.log(`Number of digits: ${digitCount}`);
 console.log("--------------"); // Separator line
+
+// Print the squares of numbers from 1 to 10 (e.g., 1², 2², …).
+
+for (let f = 1; f <= 10; f++) {
+  console.log(`${f}² = ${f * f}`);
+}
+console.log("--------------"); // Separator line
