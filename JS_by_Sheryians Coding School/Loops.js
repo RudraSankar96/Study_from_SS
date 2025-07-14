@@ -127,3 +127,14 @@ for(let w=1; w <= 5; w++){
   console.log(square);
 }
 console.log("--------------"); // Separator line
+
+// Print numbers in a triangle pattern
+for(let y=1; y <= 5; y++){
+  let number=``;
+  for ( let z=1; z<= y; z ++){
+    number += `${z} `;
+  }
+  console.log(number);
+}
+console.log("--------------");
+
