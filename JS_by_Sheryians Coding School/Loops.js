@@ -138,3 +138,12 @@ for(let y=1; y <= 5; y++){
 }
 console.log("--------------");
 
+// Print a right-angled triangle of stars
+for(let a=1; a <= 5; a++){
+  let rightTriangle=``;
+  for ( let b=1; b<= a; b ++){
+    rightTriangle += `* `;
+  }
+  console.log(rightTriangle);
+}
+console.log("--------------");
