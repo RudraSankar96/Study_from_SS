@@ -147,3 +147,12 @@ for(let a=1; a <= 5; a++){
   console.log(rightTriangle);
 }
 console.log("--------------");
+
+// Find the factorial of a number (e.g., 5! = 120).
+let factorial = 1;
+let num = 5; // Change this to any number you want to find the factorial of
+for (let c = 1; c <= num; c++) {
+  factorial *= c;
+}
+console.log(`Factorial of ${num} is ${factorial}`);
+console.log("--------------"); // Separator line
