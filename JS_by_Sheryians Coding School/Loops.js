@@ -288,3 +288,16 @@ for (let i = 1; i <= 5; i++) {
   console.log(pattern);
 }
 console.log("--------------"); // Separator line
+
+// 31. Reverse a number using a do...while loop.
+// Example: Input = 1234 → Output = 4321
+let reverseInput = 1234; // Change this to any number you want to reverse
+let reversedOutput = 0;
+do {
+  let digit = reverseInput % 10; // Get the last digit
+  reversedOutput = reversedOutput * 10 + digit; // Build the reversed number
+  reverseInput = Math.floor(reverseInput / 10); // Remove the last digit
+}
+while (reverseInput > 0);
+console.log(`Reversed number is ${reversedOutput}`);
+console.log("--------------"); // Separator line
