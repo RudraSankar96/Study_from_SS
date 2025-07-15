@@ -278,3 +278,13 @@ do {
 }
 while (fibCount <= fibonacciTerms);
 console.log("--------------"); // Separator line
+
+// 30. Print a pattern of numbers using nested loops.
+for (let i = 1; i <= 5; i++) {
+  let pattern = '';
+  for (let j = 1; j <= i; j++) {
+    pattern += `${j} `;
+  }
+  console.log(pattern);
+}
+console.log("--------------"); // Separator line
