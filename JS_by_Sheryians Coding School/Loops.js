@@ -319,3 +319,16 @@ else {
   console.log(`${armstrongNumber} is not an Armstrong number.`);
 }
 console.log("--------------"); // Separator line
+
+// 33.Find the sum of digits of a number using a do...while loop.
+// Example: 123 → 1 + 2 + 3 = 6
+let digitSumNumber = 123; // Change this to any number you want to find the sum of digits for
+let digitSum = 0;
+do {
+  let digit = digitSumNumber % 10; // Get the last digit
+  digitSum += digit; // Add the digit to the sum
+  digitSumNumber = Math.floor(digitSumNumber / 10); // Remove the last digit
+}
+while (digitSumNumber > 0);
+console.log(`Sum of digits is ${digitSum}`);
+console.log("--------------"); // Separator line
