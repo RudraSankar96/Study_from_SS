@@ -253,3 +253,15 @@ do {
 while (currentNumber <= c);
 console.log(`Sum of first ${c} natural numbers is ${sumNaturalNumbers}`);
 console.log("--------------"); // Separator line
+
+// 28.Find the factorial of a given number using a do...while loop.
+let factorialNumber = 5; // Change this to any number you want to find the factorial of
+let factorialResult = 1;
+let currentFactorial = 1;
+do {
+  factorialResult *= currentFactorial; // Multiply the current factorial result by the current number
+  currentFactorial++; // Move to the next number
+}
+while (currentFactorial <= factorialNumber);
+console.log(`Factorial of ${factorialNumber} is ${factorialResult}`);
+console.log("--------------"); // Separator line
