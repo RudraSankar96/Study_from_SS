@@ -109,9 +109,9 @@ console.log("--------------"); // Separator line
 
 // 13.Pattern Practice (using nested loops)
 
-for(let u=1; u <= 5; u++){
-  let star=``;
-  for ( let v=1; v<= u; v ++){
+for (let u = 1; u <= 5; u++) {
+  let star = ``;
+  for (let v = 1; v <= u; v++) {
     star += `*`;
   }
   console.log(star);
@@ -119,9 +119,9 @@ for(let u=1; u <= 5; u++){
 console.log("--------------");
 
 //14. Print a square of stars (5x5).
-for(let w=1; w <= 5; w++){
-  let square=``;
-  for ( let x=1; x<= 5; x ++){
+for (let w = 1; w <= 5; w++) {
+  let square = ``;
+  for (let x = 1; x <= 5; x++) {
     square += `* `;
   }
   console.log(square);
@@ -129,9 +129,9 @@ for(let w=1; w <= 5; w++){
 console.log("--------------"); // Separator line
 
 //15. Print numbers in a triangle pattern
-for(let y=1; y <= 5; y++){
-  let number=``;
-  for ( let z=1; z<= y; z ++){
+for (let y = 1; y <= 5; y++) {
+  let number = ``;
+  for (let z = 1; z <= y; z++) {
     number += `${z} `;
   }
   console.log(number);
@@ -139,9 +139,9 @@ for(let y=1; y <= 5; y++){
 console.log("--------------");
 
 //16. Print a right-angled triangle of stars
-for(let a=1; a <= 5; a++){
-  let rightTriangle=``;
-  for ( let b=1; b<= a; b ++){
+for (let a = 1; a <= 5; a++) {
+  let rightTriangle = ``;
+  for (let b = 1; b <= a; b++) {
     rightTriangle += `* `;
   }
   console.log(rightTriangle);
@@ -180,15 +180,15 @@ for (let d = 2; d <= Math.sqrt(primeCheckNumber); d++) {
 }
 if (isPrime && primeCheckNumber > 1) {
   console.log(`${primeCheckNumber} is a prime number.`);
-}
-else {
+} else {
   console.log(`${primeCheckNumber} is not a prime number.`);
 }
 console.log("--------------"); // Separator line
 
 //20. Generate the Fibonacci series up to n terms.
 let n = 10; // Change this to the number of terms you want in the Fibonacci series
-let a = 0, b = 1;
+let a = 0,
+  b = 1;
 console.log(`Fibonacci series up to ${n} terms:`);
 for (let e = 1; e <= n; e++) {
   console.log(a);
@@ -229,7 +229,7 @@ console.log("--------------"); // Separator line
 let number = 1;
 do {
   console.log(number);
-  number ++;
+  number++;
 } while (number <= 10);
 
 // 25.Print even numbers from 2 to 20 using a do...while loop.
@@ -237,8 +237,7 @@ let evenNumber = 2;
 do {
   console.log(evenNumber);
   evenNumber += 2; // Increment by 2 to get the next even number
-}
-while (evenNumber <= 20);
+} while (evenNumber <= 20);
 console.log("--------------"); // Separator line
 
 // 27. Calculate the sum of first N natural numbers using a do...while loop.
@@ -248,8 +247,7 @@ let currentNumber = 1;
 do {
   sumNaturalNumbers += currentNumber; // Add the current number to the sum
   currentNumber++; // Move to the next natural number
-}
-while (currentNumber <= c);
+} while (currentNumber <= c);
 console.log(`Sum of first ${c} natural numbers is ${sumNaturalNumbers}`);
 console.log("--------------"); // Separator line
 
@@ -260,14 +258,15 @@ let currentFactorial = 1;
 do {
   factorialResult *= currentFactorial; // Multiply the current factorial result by the current number
   currentFactorial++; // Move to the next number
-}
-while (currentFactorial <= factorialNumber);
+} while (currentFactorial <= factorialNumber);
 console.log(`Factorial of ${factorialNumber} is ${factorialResult}`);
 console.log("--------------"); // Separator line
 
 // 29. Print the first N Fibonacci numbers using a do...while loop.
 let fibonacciTerms = 10; // Change this to the number of Fibonacci terms you want
-let fibA = 0, fibB = 1, fibNext;
+let fibA = 0,
+  fibB = 1,
+  fibNext;
 let fibCount = 1;
 do {
   console.log(fibA); // Print the current Fibonacci number
@@ -275,13 +274,12 @@ do {
   fibA = fibB; // Update fibA to the next number
   fibB = fibNext; // Update fibB to the next number
   fibCount++; // Increment the count of Fibonacci numbers printed
-}
-while (fibCount <= fibonacciTerms);
+} while (fibCount <= fibonacciTerms);
 console.log("--------------"); // Separator line
 
 // 30. Print a pattern of numbers using nested loops.
 for (let i = 1; i <= 5; i++) {
-  let pattern = '';
+  let pattern = "";
   for (let j = 1; j <= i; j++) {
     pattern += `${j} `;
   }
@@ -297,8 +295,7 @@ do {
   let digit = reverseInput % 10; // Get the last digit
   reversedOutput = reversedOutput * 10 + digit; // Build the reversed number
   reverseInput = Math.floor(reverseInput / 10); // Remove the last digit
-}
-while (reverseInput > 0);
+} while (reverseInput > 0);
 console.log(`Reversed number is ${reversedOutput}`);
 console.log("--------------"); // Separator line
 
@@ -310,12 +307,10 @@ do {
   let digit = tempNumber % 10; // Get the last digit
   sumOfCubes += digit * digit * digit; // Add the cube of the digit to the sum
   tempNumber = Math.floor(tempNumber / 10); // Remove the last digit
-}
-while (tempNumber > 0);
+} while (tempNumber > 0);
 if (sumOfCubes === armstrongNumber) {
   console.log(`${armstrongNumber} is an Armstrong number.`);
-}
-else {
+} else {
   console.log(`${armstrongNumber} is not an Armstrong number.`);
 }
 console.log("--------------"); // Separator line
@@ -328,10 +323,9 @@ do {
   let digit = digitSumNumber % 10; // Get the last digit
   digitSum += digit; // Add the digit to the sum
   digitSumNumber = Math.floor(digitSumNumber / 10); // Remove the last digit
-}
-while (digitSumNumber > 0);
+} while (digitSumNumber > 0);
 console.log(`Sum of digits is ${digitSum}`);
-console.log("--------------"); // Separator line 
+console.log("--------------"); // Separator line
 
 // 34.Print all digits of a number in reverse order using a do...while loop.
 // Example: Input 452 → Output: 2 5 4
@@ -343,4 +337,3 @@ do {
   num1 = Math.floor(num1 / 10);
 } while (num1 > 0);
 console.log("--------------"); // Separator line
-
