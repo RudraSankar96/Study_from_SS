@@ -239,3 +239,17 @@ do {
   evenNumber += 2; // Increment by 2 to get the next even number
 }
 while (evenNumber <= 20);
+console.log("--------------"); // Separator line
+
+// 27. Calculate the sum of first N natural numbers using a do...while loop.
+
+let c = 10; // Change this to the number of natural numbers you want to sum
+let sumNaturalNumbers = 0;
+let currentNumber = 1;
+do {
+  sumNaturalNumbers += currentNumber; // Add the current number to the sum
+  currentNumber++; // Move to the next natural number
+}
+while (currentNumber <= c);
+console.log(`Sum of first ${c} natural numbers is ${sumNaturalNumbers}`);
+console.log("--------------"); // Separator line
