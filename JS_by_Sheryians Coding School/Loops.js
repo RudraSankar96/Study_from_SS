@@ -215,7 +215,7 @@ for (let f = 1; f <= 10; f++) {
 }
 console.log("--------------"); // Separator line
 
-// 23.sPrint only multiples of 3 from 1 to 30 using while loop.
+// 23. Print only multiples of 3 from 1 to 30 using while loop.
 let multipleOfThree = 1;
 while (multipleOfThree <= 30) {
   if (multipleOfThree % 3 === 0) {
@@ -224,3 +224,11 @@ while (multipleOfThree <= 30) {
   multipleOfThree++;
 }
 console.log("--------------"); // Separator line
+
+//24. Print numbers from 1 to 10 using a do...while loop.
+let number = 1;
+do {
+  console.log(number);
+  number ++;
+} while (number <= 10);
+
