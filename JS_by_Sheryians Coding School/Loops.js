@@ -242,7 +242,6 @@ while (evenNumber <= 20);
 console.log("--------------"); // Separator line
 
 // 27. Calculate the sum of first N natural numbers using a do...while loop.
-
 let c = 10; // Change this to the number of natural numbers you want to sum
 let sumNaturalNumbers = 0;
 let currentNumber = 1;
@@ -264,4 +263,18 @@ do {
 }
 while (currentFactorial <= factorialNumber);
 console.log(`Factorial of ${factorialNumber} is ${factorialResult}`);
+console.log("--------------"); // Separator line
+
+// 29. Print the first N Fibonacci numbers using a do...while loop.
+let fibonacciTerms = 10; // Change this to the number of Fibonacci terms you want
+let fibA = 0, fibB = 1, fibNext;
+let fibCount = 1;
+do {
+  console.log(fibA); // Print the current Fibonacci number
+  fibNext = fibA + fibB; // Calculate the next Fibonacci number
+  fibA = fibB; // Update fibA to the next number
+  fibB = fibNext; // Update fibB to the next number
+  fibCount++; // Increment the count of Fibonacci numbers printed
+}
+while (fibCount <= fibonacciTerms);
 console.log("--------------"); // Separator line
