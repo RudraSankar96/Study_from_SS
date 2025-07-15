@@ -335,12 +335,12 @@ console.log("--------------"); // Separator line
 
 // 34.Print all digits of a number in reverse order using a do...while loop.
 // Example: Input 452 → Output: 2 5 4
-let num2 = 452;
+let num1 = 452;
 
 do {
-  let digit = num2 % 10;
+  let digit = num1 % 10;
   console.log(digit);
-  num2 = Math.floor(num2 / 10);
-} while (num2 > 0);
+  num1 = Math.floor(num1 / 10);
+} while (num1 > 0);
 console.log("--------------"); // Separator line
 
