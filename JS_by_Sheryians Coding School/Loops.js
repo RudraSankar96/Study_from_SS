@@ -301,3 +301,21 @@ do {
 while (reverseInput > 0);
 console.log(`Reversed number is ${reversedOutput}`);
 console.log("--------------"); // Separator line
+
+// 32. Check if a number is an Armstrong number using a do...while loop.
+let armstrongNumber = 153; // Change this to any number you want to check
+let sumOfCubes = 0;
+let tempNumber = armstrongNumber;
+do {
+  let digit = tempNumber % 10; // Get the last digit
+  sumOfCubes += digit * digit * digit; // Add the cube of the digit to the sum
+  tempNumber = Math.floor(tempNumber / 10); // Remove the last digit
+}
+while (tempNumber > 0);
+if (sumOfCubes === armstrongNumber) {
+  console.log(`${armstrongNumber} is an Armstrong number.`);
+}
+else {
+  console.log(`${armstrongNumber} is not an Armstrong number.`);
+}
+console.log("--------------"); // Separator line
