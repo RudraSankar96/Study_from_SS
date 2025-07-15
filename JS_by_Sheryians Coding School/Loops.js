@@ -232,3 +232,10 @@ do {
   number ++;
 } while (number <= 10);
 
+// 25.Print even numbers from 2 to 20 using a do...while loop.
+let evenNumber = 2;
+do {
+  console.log(evenNumber);
+  evenNumber += 2; // Increment by 2 to get the next even number
+}
+while (evenNumber <= 20);
