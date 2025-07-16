@@ -47,3 +47,13 @@ function abcd(v) {
 let result = abcd(45);
 console.log(result);
 console.log(".................");
+
+// first-class function
+function ijkl(res){
+     res();
+};
+ijkl (function()     //we can use finction as variable this is called first-class function
+{
+    console.log("objects are first class citizens in JS");
+});
+console.log(".................");
