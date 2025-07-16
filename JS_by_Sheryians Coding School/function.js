@@ -57,3 +57,12 @@ ijkl (function()     //we can use finction as variable this is called first-clas
     console.log("objects are first class citizens in JS");
 });
 console.log(".................");
+
+// Higher-order function
+function efgh(){
+    return function(){
+        console.log("Hello World");
+    }
+};
+efgh()(); // calling the returned function
+console.log("..................");
