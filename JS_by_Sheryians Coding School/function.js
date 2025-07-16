@@ -4,3 +4,9 @@ function sum(){
 console.log(6 + 4);
 }
 sum();
+
+// Function Expression
+let sum2 = function(){
+    console.log(23 + 7);
+    }
+sum2();
