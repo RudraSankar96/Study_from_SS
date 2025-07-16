@@ -22,3 +22,9 @@ function addition(a, b){
     console.log(a+b);
 };
 addition(5,15);
+// Function with Default Parameters
+function sub(a = 4 , b = 3){
+    console.log(a -b);
+};
+sub();
+
