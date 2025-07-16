@@ -16,3 +16,9 @@ let sum3 = () => {
     console.log(10 + 5);
 };
 sum3();
+
+// Function with Parameters
+function addition(a, b){
+    console.log(a+b);
+};
+addition(5,15);
