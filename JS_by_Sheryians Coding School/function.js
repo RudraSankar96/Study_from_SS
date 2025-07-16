@@ -10,3 +10,9 @@ let sum2 = function(){
     console.log(23 + 7);
     }
 sum2();
+
+// Arrow Function
+let sum3 = () => {
+    console.log(10 + 5);
+};
+sum3();
