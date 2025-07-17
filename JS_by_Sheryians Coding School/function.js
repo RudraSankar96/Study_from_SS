@@ -87,3 +87,13 @@ function square(num){
  console.log(num * num) ;
 }
 square(9); // Output: 81
+console.log("..................");
+
+// Write a function that checks if a number is even or odd.
+// Example: isEven(4) → true
+function isEven(num){
+  if (num % 2 === 0) return "Even";
+  else return "Odd" ;
+}
+console.log(isEven(5));   // Output: false
+console.log("..................");
