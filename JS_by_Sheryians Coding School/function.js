@@ -97,3 +97,16 @@ function isEven(num){
 }
 console.log(isEven(5));   // Output: false
 console.log("..................");
+
+// Write a function that takes a number and returns its factorial.
+// Example: factorial(5) → 120
+function factorial(num1){
+  let fact=1;
+  for(let i =1 ; i<= num1 ; i ++){
+    fact *= i;
+  }
+  console.log(fact);
+}
+factorial(5);  // Output: 120
+console.log("..................");
+
