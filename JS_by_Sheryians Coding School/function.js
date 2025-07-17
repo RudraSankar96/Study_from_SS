@@ -80,3 +80,10 @@ return "Invalid operation";
 }
 console.log(calculator(10, 7, "divide"));
 console.log("..................");
+
+// Create a function that returns the square of a number.
+// Example: square(5) → 25
+function square(num){
+ console.log(num * num) ;
+}
+square(9); // Output: 81
