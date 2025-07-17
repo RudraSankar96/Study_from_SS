@@ -49,64 +49,74 @@ console.log(result);
 console.log(".................");
 
 // first-class function
-function ijkl(res){
-     res();
-};
-ijkl (function()     //we can use finction as variable this is called first-class function
-{
+function ijkl(res) {
+  res();
+}
+ijkl(
+  function () //we can use finction as variable this is called first-class function
+  {
     console.log("objects are first class citizens in JS");
-});
+  }
+);
 console.log(".................");
 
 // Higher-order function
-function efgh(){
-    return function(){
-        console.log("Hello World");
-    }
-};
+function efgh() {
+  return function () {
+    console.log("Hello World");
+  };
+}
 efgh()(); // calling the returned function
 console.log("..................");
 
 // Creating a calculator using functions
-function calculator(i,j, operation){
-  if(operation === "add") return i + j;
-  if(operation === "subtract") return i-j;
-  if(operation === "multiply")return i * j;
-  if(operation === "divide") {
-    if(j != 0) return i/j;
+function calculator(i, j, operation) {
+  if (operation === "add") return i + j;
+  if (operation === "subtract") return i - j;
+  if (operation === "multiply") return i * j;
+  if (operation === "divide") {
+    if (j != 0) return i / j;
     else return "cannot divide by zero";
   }
-return "Invalid operation";
+  return "Invalid operation";
 }
 console.log(calculator(10, 7, "divide"));
 console.log("..................");
 
 // Create a function that returns the square of a number.
 // Example: square(5) → 25
-function square(num){
- console.log(num * num) ;
+function square(num) {
+  console.log(num * num);
 }
 square(9); // Output: 81
 console.log("..................");
 
 // Write a function that checks if a number is even or odd.
 // Example: isEven(4) → true
-function isEven(num){
+function isEven(num) {
   if (num % 2 === 0) return "Even";
-  else return "Odd" ;
+  else return "Odd";
 }
-console.log(isEven(5));   // Output: false
+console.log(isEven(5)); // Output: false
 console.log("..................");
 
 // Write a function that takes a number and returns its factorial.
 // Example: factorial(5) → 120
-function factorial(num1){
-  let fact=1;
-  for(let i =1 ; i<= num1 ; i ++){
+function factorial(num1) {
+  let fact = 1;
+  for (let i = 1; i <= num1; i++) {
     fact *= i;
   }
   console.log(fact);
 }
-factorial(5);  // Output: 120
+factorial(5); // Output: 120
 console.log("..................");
 
+//Create a function that converts Celsius to Fahrenheit.
+// Formula: (C × 9/5) + 32
+function celsiusToFahrenheit(celsius) {
+  let fahrenheit = (celsius * 9) / 5 + 32;
+  console.log(fahrenheit);
+}
+celsiusToFahrenheit(25); // Output: 77
+console.log("..................");
