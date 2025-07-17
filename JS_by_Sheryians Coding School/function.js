@@ -66,3 +66,17 @@ function efgh(){
 };
 efgh()(); // calling the returned function
 console.log("..................");
+
+// Creating a calculator using functions
+function calculator(i,j, operation){
+  if(operation === "add") return i + j;
+  if(operation === "subtract") return i-j;
+  if(operation === "multiply")return i * j;
+  if(operation === "divide") {
+    if(j != 0) return i/j;
+    else return "cannot divide by zero";
+  }
+return "Invalid operation";
+}
+console.log(calculator(10, 7, "divide"));
+console.log("..................");
