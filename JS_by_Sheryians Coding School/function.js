@@ -120,3 +120,12 @@ function celsiusToFahrenheit(celsius) {
 }
 celsiusToFahrenheit(25); // Output: 77
 console.log("..................");
+
+// Make a function that checks if a string contains the letter "a".
+// Example: containsA("apple") → true
+function containsA(str){
+  return str.includes("a");
+}
+console.log(containsA("apple"));
+console.log(containsA("hello"));
+console.log("..................");
