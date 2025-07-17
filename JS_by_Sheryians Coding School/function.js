@@ -129,3 +129,10 @@ function containsA(str){
 console.log(containsA("apple"));
 console.log(containsA("hello"));
 console.log("..................");
+
+// Write a function that returns the length of a string.
+// Example: stringLength("hello") → 5
+function stingLength(str){
+  console.log(str.length);
+}
+stingLength("Rudra")
