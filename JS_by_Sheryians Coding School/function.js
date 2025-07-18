@@ -175,3 +175,13 @@ console.log("....................");
 setTimeout(function() {
   console.log("Hello after 2 sec");
 }, 2000);
+
+// 1. Create a function that returns the maximum of three numbers.
+function findMax(a, b, c) {
+  if(a>b && a>c) return "a is greater";
+  if(b>a && b>c) return "b is greater";
+  else{
+    return "c is greater"
+  }
+}
+console.log(findMax(4, 9, 2)); // Output: 9
