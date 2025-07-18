@@ -153,3 +153,12 @@ function getScore(...val){
     return total;
 }
 console.log(getScore(20,30,88,75,45,645));
+console.log("...................");
+
+// Use early return to print the allowed for vote.
+function checkAge(age){
+  if(age < 18) return "Too Young"
+  return "Allowed"
+}
+console.log(checkAge(43));
+console.log("...................");
