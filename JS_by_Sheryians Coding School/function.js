@@ -123,7 +123,7 @@ console.log("..................");
 
 // Make a function that checks if a string contains the letter "a".
 // Example: containsA("apple") → true
-function containsA(str){
+function containsA(str) {
   return str.includes("a");
 }
 console.log(containsA("apple"));
@@ -132,56 +132,56 @@ console.log("..................");
 
 // Write a function that returns the length of a string.
 // Example: stringLength("hello") → 5
-function stingLength(str){
+function stingLength(str) {
   console.log(str.length);
 }
-stingLength("Rudra")
+stingLength("Rudra");
 console.log("..................");
 
 // IIFE( imidately invoked function  Expression) example.
-(function (){
+(function () {
   console.log("Rudra99");
 })();
 console.log("..................");
 
 // Use rest parameter ti accept any number of scores and return the total.
-function getScore(...val){
-  let total=0;
-    val.forEach(function(scores){
-      total=total+scores;
-    })
-    return total;
+function getScore(...val) {
+  let total = 0;
+  val.forEach(function (scores) {
+    total = total + scores;
+  });
+  return total;
 }
-console.log(getScore(20,30,88,75,45,645));
+console.log(getScore(20, 30, 88, 75, 45, 645));
 console.log("...................");
 
 // Use early return to print the allowed for vote.
-function checkAge(age){
-  if(age < 18) return "Too Young"
-  return "Allowed"
+function checkAge(age) {
+  if (age < 18) return "Too Young";
+  return "Allowed";
 }
 console.log(checkAge(43));
 console.log("...................");
 
 // Pass a function into another function and execute it inside.
-function m(val){
+function m(val) {
   val();
 }
-m(function(){
+m(function () {
   console.log("Hi Rudra");
 });
 console.log("....................");
 
-setTimeout(function() {
+setTimeout(function () {
   console.log("Hello after 2 sec");
 }, 2000);
 
 // 1. Create a function that returns the maximum of three numbers.
 function findMax(a, b, c) {
-  if(a>b && a>c) return "a is greater";
-  if(b>a && b>c) return "b is greater";
-  else{
-    return "c is greater"
+  if (a > b && a > c) return "a is greater";
+  if (b > a && b > c) return "b is greater";
+  else {
+    return "c is greater";
   }
 }
 console.log(findMax(4, 9, 2)); // Output: 9
@@ -189,13 +189,13 @@ console.log("....................");
 
 //  Create a closure that adds a given number to any number you pass later.
 function makeAdder(x) {
-  return function(y) {
+  return function (y) {
     return x + y;
   };
 }
 
 // Creating a closure
-const add5 = makeAdder(5);  // x = 5 is remembered
+const add5 = makeAdder(5); // x = 5 is remembered
 
 console.log(add5(10)); // Output: 15 → (5 + 10)
 console.log(add5(20)); // Output: 25 → (5 + 20)
@@ -207,7 +207,7 @@ console.log("..................");
 
 //  Write an arrow function that filters out all even numbers from an array.
 const filterEvens = (arr) => {
-  return arr.filter(num => num % 2 === 0);
+  return arr.filter((num) => num % 2 === 0);
 };
 
 // Example usage
