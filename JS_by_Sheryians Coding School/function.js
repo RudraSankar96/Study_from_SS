@@ -162,3 +162,16 @@ function checkAge(age){
 }
 console.log(checkAge(43));
 console.log("...................");
+
+// Pass a function into another function and execute it inside.
+function m(val){
+  val();
+}
+m(function(){
+  console.log("Hi Rudra");
+});
+console.log("....................");
+
+setTimeout(function() {
+  console.log("Hello after 2 sec");
+}, 2000);
