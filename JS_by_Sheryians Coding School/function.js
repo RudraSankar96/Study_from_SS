@@ -205,4 +205,12 @@ const add10 = makeAdder(10);
 console.log(add10(7)); // Output: 17 → (10 + 7)
 console.log("..................");
 
+//  Write an arrow function that filters out all even numbers from an array.
+const filterEvens = (arr) => {
+  return arr.filter(num => num % 2 === 0);
+};
+
+// Example usage
+console.log(filterEvens([1, 2, 3, 4, 5, 6, 7, 8])); // Output: [2, 4, 6, 8]
+console.log("....................");
 
