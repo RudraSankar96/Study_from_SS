@@ -1,15 +1,17 @@
-function makeAdder(x) {
-  return function(y) {
-    return x + y;
-  };
+function countVowels(str) {
+  let count = 0;
+  const vowels = "aeiouAEIOU";
+
+  for (let char of str) {
+    if (vowels.includes(char)) {
+      count++;
+    }
+  }
+
+  return count;
 }
 
-// Creating a closure
-const add5 = makeAdder(5);  // x = 5 is remembered
-
-console.log(add5(10)); // Output: 15 → (5 + 10)
-console.log(add5(20)); // Output: 25 → (5 + 20)
-
-// You can create other versions too
-const add10 = makeAdder(10);
-console.log(add10(7)); // Output: 17 → (10 + 7)
+// Example usage
+console.log(countVowels("Rudra Swain")); // Output: 4
+console.log(countVowels("Hello World")); // Output: 3
+console.log("....................");
