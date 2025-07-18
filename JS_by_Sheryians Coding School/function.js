@@ -136,3 +136,10 @@ function stingLength(str){
   console.log(str.length);
 }
 stingLength("Rudra")
+console.log("..................");
+
+// IIFE( imidately invoked function  Expression) example.
+(function (){
+  console.log("Rudra99");
+})();
+console.log("..................");
