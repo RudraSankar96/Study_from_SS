@@ -143,3 +143,13 @@ console.log("..................");
   console.log("Rudra99");
 })();
 console.log("..................");
+
+// Use rest parameter ti accept any number of scores and return the total.
+function getScore(...val){
+  let total=0;
+    val.forEach(function(scores){
+      total=total+scores;
+    })
+    return total;
+}
+console.log(getScore(20,30,88,75,45,645));
