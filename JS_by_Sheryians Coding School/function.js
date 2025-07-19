@@ -232,3 +232,10 @@ function countVowels(str) {
 console.log(countVowels("Rudra Swain")); // Output: 4
 console.log(countVowels("Hello World")); // Output: 3
 console.log("....................");
+
+// Write a BMI calculator
+function bmi(weight, height){
+  return weight/(height*height);
+}
+console.log(bmi(88, 1.8).toFixed(2));
+console.log("....................");
