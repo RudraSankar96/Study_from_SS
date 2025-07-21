@@ -183,4 +183,19 @@ if (num > 0) {
 } else {
   console.log("Zero");
 }
+console.log("...................");
+
+// Check if Number is Multiple of 3 or 5 or Both
+let num2 = 15;
+
+if (num2 % 3 === 0 && num2 % 5 === 0) {
+  console.log("Multiple of both 3 and 5");
+} else if (num2 % 3 === 0) {
+  console.log("Multiple of 3");
+} else if (num2 % 5 === 0) {
+  console.log("Multiple of 5");
+} else {
+  console.log("Not a multiple of 3 or 5");
+}
+console.log("...................");
 
