@@ -277,3 +277,10 @@ function isPalindrome(str) {
 }
 console.log(isPalindrome("Racecar")); // true
 console.log("........................");
+
+//Find the Largest Number in Array
+ function findLargest(arr) {
+  return Math.max(...arr);
+}
+console.log(findLargest([4, 99, 12, 43])); // 99
+console.log("........................");
