@@ -269,3 +269,11 @@ function factorial(n) {
 }
 console.log(factorial(5)); // 120
 console.log("......................");
+
+//  Check if a string is a palindrome.
+function isPalindrome(str) {
+  str = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+  return str === str.split('').reverse().join('');
+}
+console.log(isPalindrome("Racecar")); // true
+console.log("........................");
