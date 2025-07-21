@@ -203,3 +203,13 @@ if (num2 % 3 === 0 && num2 % 5 === 0) {
 }
 console.log("...................");
 
+// Check if Triangle is Valid (Sum of angles = 180)
+let i= 60, j = 60, k = 60;
+
+if (i + j + k === 180) {
+  console.log("Valid triangle");
+} else {
+  console.log("Invalid triangle");
+}
+console.log("...................");
+
