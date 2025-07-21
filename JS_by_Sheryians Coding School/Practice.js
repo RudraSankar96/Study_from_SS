@@ -7,6 +7,7 @@ if (x > 5 && y < 25) {
 } else {
   console.log("B");
 }
+console.log(".................");
 
 // Or operator example (||)
 let isAdmin = true;
