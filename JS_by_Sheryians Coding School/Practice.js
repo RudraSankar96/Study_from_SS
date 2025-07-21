@@ -18,6 +18,7 @@ if (isAdmin || isLoggedIn) {
 } else {
   console.log("Access denied");
 }
+console.log("....................");
 
 // Not operator example (!)
 let temp = 35;
