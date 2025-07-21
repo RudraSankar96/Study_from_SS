@@ -28,6 +28,8 @@ if (!(temp < 30)) {
 } else {
   console.log("It's cool outside");
 }
+console.log("....................");
+
 // Ternary operator example (condition ? expr1 : expr2)
 let score = 85;
 
