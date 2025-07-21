@@ -172,3 +172,15 @@ if (operator === "+") {
 } else {
   console.log("Invalid Operation");
 }
+
+// Check if Number is Positive, Negative, or Zero
+let num = -5;
+
+if (num > 0) {
+  console.log("Positive");
+} else if (num < 0) {
+  console.log("Negative");
+} else {
+  console.log("Zero");
+}
+
