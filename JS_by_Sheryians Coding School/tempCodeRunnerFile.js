@@ -1,5 +1,6 @@
-// Example of push method.
-let arr2 = [11,22,33,44,55,66]
-arr2.push(88);
-console.log(arr2);
+// Example of shift method.
+// its remove first  item from  array.
+let str = ["Rudra"]
+str.shift(1);
+console.log(str);
 console.log("....................");
