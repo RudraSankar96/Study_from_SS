@@ -69,3 +69,9 @@ array.forEach(function(val){
 });
 console.log("......................");
 
+// Add 5 in the each index of array.
+let arr4 = [98,67,76,54,35];
+arr4.forEach(function(val){
+    console.log(val + 5);
+});
+console.log(".......................");
