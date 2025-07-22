@@ -15,3 +15,9 @@ let arr2 = [11,22,33,44,55,66]
 arr2.push(88);
 console.log(arr2);
 console.log("....................");
+
+// Example of pop method.
+let num = [ 74,85,96,41,52,63]
+num.pop()
+console.log(num);
+console.log("....................");
