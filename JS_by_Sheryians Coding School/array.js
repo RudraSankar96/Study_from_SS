@@ -30,3 +30,10 @@ let str = [45,55,68,21]
 str.shift();
 console.log(str);
 console.log("....................");
+
+// Example of unshift method.
+// It add item at the begining of array.
+let name = ["Happy","Rudra", "Sankar"]
+name.unshift("Bikun")
+console.log(name);
+console.log(".....................");
