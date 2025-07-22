@@ -37,3 +37,10 @@ let name = ["Happy","Rudra", "Sankar"]
 name.unshift("Bikun")
 console.log(name);
 console.log(".....................");
+
+// Example of splice method.
+// it add or remove items at specific index
+let name2 = ["Happy", "Rudra", "Sankar"];
+name2.splice(1, 0, "Bikun"); // Insert at index 1
+console.log(name2);
+console.log(".....................");
