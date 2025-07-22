@@ -50,3 +50,13 @@ console.log(".....................");
 let a = [4,5,6,7,8,9];
 a.reverse();
 console.log(a);
+console.log("......................");
+
+// Example of sort method.
+// it sorts the element.
+let arr3 =[60,50,80,90,10,12,15,11];
+arr3.sort(function(a,b){
+    return a - b;    //a - b works as asending order
+});
+console.log(arr3);
+console.log("......................");
