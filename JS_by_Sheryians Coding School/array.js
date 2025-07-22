@@ -60,3 +60,12 @@ arr3.sort(function(a,b){
 });
 console.log(arr3);
 console.log("......................");
+
+// Example of foreach method
+// it goes to each index separately.
+let array = [34,43,24,42];
+array.forEach(function(val){
+    console.log(val);
+});
+console.log("......................");
+
