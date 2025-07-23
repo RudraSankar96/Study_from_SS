@@ -75,3 +75,12 @@ arr4.forEach(function(val){
     console.log(val + 5);
 });
 console.log(".......................");
+
+// Doubled each number using map method.
+let numbers = [2 ,5,8,9,6,];
+let doubled = numbers.map(function(num){
+    return num * 2;
+});
+console.log(doubled);
+console.log(numbers);
+console.log(".........................");
