@@ -142,3 +142,15 @@ let upperFruits = fruits.map(function(fruit) {
 console.log(upperFruits); // ["APPLE", "BANANA", "CHERRY"]
 console.log("...........................");
 
+// Find the maximum number
+let numbers1 = [15, 45, 7, 89, 32];
+
+let max = numbers1.reduce(function(acc, curr) {
+  if (curr > acc) {
+    return curr;
+  } else {
+    return acc;
+  }
+});
+
+console.log(max); // Output: 89
