@@ -123,3 +123,11 @@ let sum = array1.reduce(function (accumaltor, val) {
 }, 0);
 console.log(sum);
 console.log(".........................");
+
+// Print the name which length is 4.
+let names = ["Raj", "Ankit", "Aman", "John"];
+let longNames = names.filter(function(name) {
+  return name.length > 4;
+});
+
+console.log(longNames); // ["Ankit"]
