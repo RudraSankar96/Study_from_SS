@@ -107,3 +107,13 @@ newarr.sort(function(a,b){
 });
 console.log(newarr);
 console.log(".........................");
+
+// Example of reduce() method.
+// .reduce() method array ke sabhi elements ko ek ek karke process karta hai aur ek hi final value return karta hai — yeh value tumhare diye gaye function aur initial value ke basis par banti hai.
+// Add the all num in the array.
+let array1 = [45,36,89,99,90,98,2,12];
+let sum=array1.reduce(function(accumaltor,val){
+           return accumaltor + val;
+}, 0);
+console.log(sum);
+console.log(".........................");
