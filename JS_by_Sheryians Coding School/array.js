@@ -85,6 +85,12 @@ console.log(doubled);
 console.log(numbers);
 console.log(".........................");
 
+// FILLTER() METHOD:
+// Hindi:
+// .filter() method ek naya array banata hai un elements ka jo kisi di hui condition ko satisfy karte hain.
+// English:
+// The filter() method creates a new array with all elements that pass the test implemented by the provided function.
+
 // Example of fillter() method.
 // Print the number which is greater than 12.
 let num1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 4, 5, 6, 12, 3, 55, 66, , 44, 78];
@@ -98,12 +104,12 @@ console.log(newnum);
 console.log("..........................");
 
 // Print the even number using fillter() method. And sort them in asecnding order.
-let num2 = [45,36,89,99,90,98,2,12];
-let newarr= num2.filter(function(val){
-    if(val % 2 === 0) return true ;
+let num2 = [45, 36, 89, 99, 90, 98, 2, 12];
+let newarr = num2.filter(function (val) {
+  if (val % 2 === 0) return true;
 });
-newarr.sort(function(a,b){
-    return a -b ;
+newarr.sort(function (a, b) {
+  return a - b;
 });
 console.log(newarr);
 console.log(".........................");
@@ -111,9 +117,9 @@ console.log(".........................");
 // Example of reduce() method.
 // .reduce() method array ke sabhi elements ko ek ek karke process karta hai aur ek hi final value return karta hai — yeh value tumhare diye gaye function aur initial value ke basis par banti hai.
 // Add the all num in the array.
-let array1 = [45,36,89,99,90,98,2,12];
-let sum=array1.reduce(function(accumaltor,val){
-           return accumaltor + val;
+let array1 = [45, 36, 89, 99, 90, 98, 2, 12];
+let sum = array1.reduce(function (accumaltor, val) {
+  return accumaltor + val;
 }, 0);
 console.log(sum);
 console.log(".........................");
