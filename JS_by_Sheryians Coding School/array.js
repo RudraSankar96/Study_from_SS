@@ -131,3 +131,14 @@ let longNames = names.filter(function(name) {
 });
 
 console.log(longNames); // ["Ankit"]
+console.log(".........................");
+
+// Convert array of strings to uppercase
+let fruits = ["apple", "banana", "cherry"];
+let upperFruits = fruits.map(function(fruit) {
+  return fruit.toUpperCase();
+});
+
+console.log(upperFruits); // ["APPLE", "BANANA", "CHERRY"]
+console.log("...........................");
+
