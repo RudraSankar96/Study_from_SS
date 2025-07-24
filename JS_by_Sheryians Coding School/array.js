@@ -190,3 +190,13 @@ let even = num3.every(function(val){
 console.log(even);
 console.log(".......................");
 
+// What is Destructuring?
+// Destructuring is a feature in JavaScript that lets you unpack values from arrays or properties from objects into separate variables — in a clean and short way.
+// It’s like taking pieces out of a box and assigning them names.
+
+// Example of destructuring.
+let f= [4,5,6,7,9];
+let [i , , b, c] = f;
+console.log(i);
+console.log(b);
+console.log(c);
