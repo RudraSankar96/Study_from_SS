@@ -234,3 +234,9 @@ let name1 =["Rudra","Zara","Arun","Mira"];
 name1.sort().reverse();
 console.log(name1);
 console.log("...........................");
+
+// Copy an array.
+let array2= [12,32,52,62];
+let newarray=[...array2];
+console.log(newarray);
+console.log("...........................");
