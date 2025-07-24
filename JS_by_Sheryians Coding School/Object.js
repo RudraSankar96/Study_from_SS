@@ -14,6 +14,13 @@ let person ={
 };
 console.log(person.name);
 console.log(person.greet());
+console.log(person.age);
+
+//  Adding/Updating Properties
+person.city = "Bhubaneswar";     // Add new
+person.age = 26;                 // Update existing
+console.log(person.age);
+console.log(person.city);
 console.log(".....................");
 
 // For in loop of object.
