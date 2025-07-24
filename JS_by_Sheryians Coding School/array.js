@@ -156,7 +156,8 @@ let max = numbers1.reduce(function(acc, curr) {
 console.log(max); // Output: 89
 
 // FIND() METHOD:
-// The find() method returns the first element in an array that satisfies a provided testing function.// If no element satisfies the condition, it returns undefined.
+// The find() method returns the first element in an array that satisfies a provided testing function.
+// // If no element satisfies the condition, it returns undefined.
 // Example of find method.
 // find the posetive element from the array.
 let neg = [-45,-56,67,-89,90];
@@ -165,3 +166,13 @@ let posetive= neg.find(function(val){
 });
 console.log(posetive);
 console.log("......................");
+
+// Example of some() method.
+// Find the number greater than 10;
+let k =[12,34,56,5,6,7];
+let greater= k.some(function(val){
+  return val>10;
+});
+console.log(greater);
+console.log("......................");
+
