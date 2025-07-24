@@ -14,3 +14,15 @@ let person ={
 };
 console.log(person.name);
 console.log(person.greet());
+console.log(".....................");
+
+// For in loop of object.
+let per={
+    name: "Rudra",
+    age: 25,
+    city: "Jagatsinghpur"
+};
+for(let key in per){
+    console.log(key + ":", per[key]);
+};
+console.log(".....................");
