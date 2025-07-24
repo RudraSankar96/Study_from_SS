@@ -222,3 +222,9 @@ fruit1.pop();
 fruit1.push("kiwi");
 console.log(fruit1);
 console.log(".........................");
+
+// Insert "Red " and "Blue" at index 1 in the array.
+let colour=["Green","Yellow"];
+colour.splice(1,0,"Red","Blue");
+console.log(colour);
+console.log(".........................");
