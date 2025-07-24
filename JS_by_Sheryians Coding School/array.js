@@ -214,3 +214,11 @@ furits.push("Mango");
 furits.unshift("Pineapple");
 console.log(furits);
 console.log("........................");
+
+// Replace "banana" eith "kiwi" in the array .
+let fruit1=["apple","mango","banana"];
+console.log(fruit1);
+fruit1.pop();
+fruit1.push("kiwi");
+console.log(fruit1);
+console.log(".........................");
