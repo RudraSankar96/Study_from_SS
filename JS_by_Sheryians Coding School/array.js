@@ -228,3 +228,9 @@ let colour=["Green","Yellow"];
 colour.splice(1,0,"Red","Blue");
 console.log(colour);
 console.log(".........................");
+
+// Sort the array alphabetically and then reverse it.
+let name1 =["Rudra","Zara","Arun","Mira"];
+name1.sort().reverse();
+console.log(name1);
+console.log("...........................");
