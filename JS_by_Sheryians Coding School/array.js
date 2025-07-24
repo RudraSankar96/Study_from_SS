@@ -154,3 +154,14 @@ let max = numbers1.reduce(function(acc, curr) {
 });
 
 console.log(max); // Output: 89
+
+// FIND() METHOD:
+// The find() method returns the first element in an array that satisfies a provided testing function.// If no element satisfies the condition, it returns undefined.
+// Example of find method.
+// find the posetive element from the array.
+let neg = [-45,-56,67,-89,90];
+let posetive= neg.find(function(val){
+  return val>0;
+});
+console.log(posetive);
+console.log("......................");
