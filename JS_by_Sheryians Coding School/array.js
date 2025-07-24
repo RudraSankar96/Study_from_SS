@@ -207,3 +207,10 @@ console.log(".......................");
 let fruit=[`apple`,`mango`, `orange`];
 console.log(fruit[1]);
 console.log("........................");
+
+// Add "Mango" at the end and "pineapple" at he beginging of this array.
+let furits=["Apple","Banana"];
+furits.push("Mango");
+furits.unshift("Pineapple");
+console.log(furits);
+console.log("........................");
