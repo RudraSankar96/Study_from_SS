@@ -1,17 +1,11 @@
-let person ={
-    name: "Rudra",
-    age: 25,
-    isStudent: true,
-    skills: ["JavaScript", "HTML", "CSS"],
-  greet: function() {
-    console.log("Hello, I am " + this.name);
+// Another example of Student Object
+let student = {
+  rollNo: 12,
+  name: "Rudra Swain",
+  subjects: ["Math", "English", "Science"],
+  getSummary: function() {
+    return `${this.name} is enrolled in ${this.subjects.length} subjects.`;
   }
 };
-console.log(person.name);
-console.log(person.greet());
-console.log(person.age);
-//  Adding/Updating Properties
-person.city = "Bhubaneswar";     // Add new
-person.age = 26;                 // Update existing
-console.log(person.city);
-console.log(".....................");
+
+console.log(student.getSummary());

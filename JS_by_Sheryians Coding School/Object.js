@@ -23,6 +23,19 @@ console.log(person.age);
 console.log(person.city);
 console.log(".....................");
 
+// Another example of Student Object
+let student = {
+  rollNo: 12,
+  name: "Rudra Swain",
+  subjects: ["Math", "English", "Science"],
+  getSummary: function() {
+    return `${this.name} is enrolled in ${this.subjects.length} subjects.`;
+  }
+};
+
+console.log(student.getSummary());
+console.log(".....................");
+
 // For in loop of object.
 let per={
     name: "Rudra",
