@@ -200,3 +200,10 @@ let [i , , b, c] = f;
 console.log(i);
 console.log(b);
 console.log(c);
+console.log(".......................");
+
+// PRACTICE QUESTIONS-
+//Create an array with 3 fruits and print second fruit.
+let fruit=[`apple`,`mango`, `orange`];
+console.log(fruit[1]);
+console.log("........................");
