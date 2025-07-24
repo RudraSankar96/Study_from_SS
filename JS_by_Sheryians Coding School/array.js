@@ -176,3 +176,17 @@ let greater= k.some(function(val){
 console.log(greater);
 console.log("......................");
 
+// EVERY() METHOD.
+// The every() method checks if all items in an array satisfy a given condition.
+ 
+// It returns:
+// ✅ true — if every item passes the condition
+// ❌ false — if even one item fails
+// All numbers are even?
+let num3 = [3,4,5,6,7,8];
+let even = num3.every(function(val){
+  return val % 2 === 0;
+});
+console.log(even);
+console.log(".......................");
+
