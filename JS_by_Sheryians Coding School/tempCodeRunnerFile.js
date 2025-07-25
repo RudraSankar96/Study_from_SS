@@ -1,11 +1,10 @@
-// Another example of Student Object
-let student = {
-  rollNo: 12,
-  name: "Rudra Swain",
-  subjects: ["Math", "English", "Science"],
-  getSummary: function() {
-    return `${this.name} is enrolled in ${this.subjects.length} subjects.`;
-  }
+let obj={
+  name: "Rahul",
+  age: 54,
+  city:"BBSR",
 };
 
-console.log(student.getSummary());
+let obj2={...obj};
+JSON.stringify(obj2);
+console.log(obj2);  //It creates a copy of object.
+console.log(".....................");

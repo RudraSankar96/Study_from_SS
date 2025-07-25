@@ -67,3 +67,18 @@ let obj={
 let obj2={...obj};
 console.log(obj2);  //It creates a copy of object.
 console.log(".....................");
+
+// Exmple of deep clone.
+let car = {
+  name: "Ferari",
+  Brand: "Ferari",
+  addres:{
+    city:"French",
+  } ,
+}
+let object1= JSON.parse(JSON.stringify(car));
+console.log(object1);
+object1.addres.city= "America";
+console.log(car);
+console.log(object1);
+console.log(".....................");
