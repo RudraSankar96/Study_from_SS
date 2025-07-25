@@ -46,3 +46,11 @@ for(let key in per){
     console.log(key + ":", per[key]);
 };
 console.log(".....................");
+
+//Example of Object.key
+let man ={
+  name: "Happy",
+  age: 23,
+  city: "cuttack",
+};
+console.log(Object.keys(man));
