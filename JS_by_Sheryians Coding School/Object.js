@@ -54,3 +54,16 @@ let man ={
   city: "cuttack",
 };
 console.log(Object.keys(man));
+console.log(Object.entries(man));
+console.log(".....................");
+
+// Example of Spread operator. It makes exact copy of orginal obj.
+let obj={
+  name: "Rahul",
+  age: 54,
+  city:"BBSR",
+};
+
+let obj2={...obj};
+console.log(obj2);  //It creates a copy of object.
+console.log(".....................");
