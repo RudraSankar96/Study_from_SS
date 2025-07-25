@@ -13,6 +13,7 @@
   display: inline-block;
   width: 150px;
   height: 100px;
+  text-align: center;
 }
 
 .element1 {
@@ -21,4 +22,13 @@
 
 .element2 {
   background-color: lightgreen;
+}
+
+/* Example of margin properties */
+.margin p{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    border: 2px solid red;
 }
