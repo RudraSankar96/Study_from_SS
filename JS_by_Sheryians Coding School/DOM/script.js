@@ -2,6 +2,16 @@
 let h1 = document.querySelector("h1");
 console.dir(h1);
 h1.textContent = "Welcome to Sheryians Coding School";
+function applyStyle(){
+    let heading = document.getElementById("heading");
+    // change text color
+    heading.style.color= "White"
+    // change the background color
+    heading.style.backgroundColor="black";
+    // Add padding and color
+    heading.style.padding = "10px";
+    heading.style.borderRadius= "8px";
+}
 
 // Example of querySelector().
 let p1 = document.querySelector("p");
