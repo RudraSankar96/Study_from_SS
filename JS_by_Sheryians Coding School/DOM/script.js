@@ -25,3 +25,17 @@ p2.textContent= "This is my Second Paragraph"
 function changeText(){
     document.getElementById("message").innerText = "Text changed  using DOM";
 }
+
+   function addNote() {
+      // 1. Create a new <p> element
+      let newPara = document.createElement("p");
+
+      // 2. Add text inside the <p>
+      newPara.innerText = "This is a new note added using DOM!";
+
+      // 3. Get the container where we want to add the new <p>
+      let container = document.getElementById("notes-container");
+
+      // 4. Append the new <p> to the container
+      container.appendChild(newPara);
+    }
