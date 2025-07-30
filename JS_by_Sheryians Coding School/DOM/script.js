@@ -61,3 +61,14 @@ function changeText(){
       // 3. Add it inside the container
       document.getElementById("input-container").appendChild(newInput);
     }
+
+    function toggleVisibility() {
+      let para = document.getElementById("myPara");
+
+      // Check current state
+      if (para.style.display === "none") {
+        para.style.display = "block";  // Show it
+      } else {
+        para.style.display = "none";   // Hide it
+      }
+    }
