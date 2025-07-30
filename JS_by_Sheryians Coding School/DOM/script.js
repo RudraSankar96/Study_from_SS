@@ -47,3 +47,17 @@ function changeText(){
       // Change the font size using style
       text.style.fontSize = "24px";  // You can also use "2rem" or "150%"
     }
+
+     function addInput() {
+      // 1. Create a new input element
+      let newInput = document.createElement("input");
+
+      // 2. Set attributes
+      newInput.type = "text";
+      newInput.placeholder = "Enter another skill";
+      newInput.style.marginTop = "5px";
+      newInput.style.display = "block";
+
+      // 3. Add it inside the container
+      document.getElementById("input-container").appendChild(newInput);
+    }
