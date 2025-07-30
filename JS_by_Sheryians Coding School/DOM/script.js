@@ -11,3 +11,7 @@ p1.textContent = "Hi This is my coding shool.";
 // Example of getElementsById().
 let p2 = document.getElementById("ij");
 p2.textContent= "This is my Second Paragraph"
+
+function changeText(){
+    document.getElementById("message").innerText = "Text changed  using DOM";
+}
