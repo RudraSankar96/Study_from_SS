@@ -25,7 +25,7 @@ p2.textContent= "This is my Second Paragraph"
 function changeText(){
     document.getElementById("message").innerText = "Text changed  using DOM";
 }
-
+// Example of adding new element.
    function addNote() {
       // 1. Create a new <p> element
       let newPara = document.createElement("p");
@@ -38,4 +38,12 @@ function changeText(){
 
       // 4. Append the new <p> to the container
       container.appendChild(newPara);
+    }
+
+    // Example of increase font size
+    function increaseFont() {
+      let text = document.getElementById("myText");
+      
+      // Change the font size using style
+      text.style.fontSize = "24px";  // You can also use "2rem" or "150%"
     }
