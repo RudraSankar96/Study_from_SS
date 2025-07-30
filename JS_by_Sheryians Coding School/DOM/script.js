@@ -1,6 +1,13 @@
+// Example of querySelector().
 let h1 = document.querySelector("h1");
 console.dir(h1);
-h1.textContent = "Welcome to Sheryians Coding School";  
+h1.textContent = "Welcome to Sheryians Coding School";
+
+// Example of querySelector().
 let p1 = document.querySelector("p");
 console.dir(p1);
 p1.textContent = "Hi This is my coding shool.";
+
+// Example of getElementsById().
+let p2 = document.getElementById("ij");
+p2.textContent= "This is my Second Paragraph"
