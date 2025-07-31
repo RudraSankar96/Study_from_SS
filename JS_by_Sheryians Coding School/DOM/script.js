@@ -81,3 +81,11 @@ btn.addEventListener("click",function(){
     box.style.backgroundColor="orange";
   });
 });
+
+let btn2= document.querySelector(".changeText");
+let a =document.querySelector("a")
+
+btn2.addEventListener("click",function(){
+  a.innerText = "Go to YouTube";
+  a.setAttribute ("href","https://www.youtube.com/");
+});
