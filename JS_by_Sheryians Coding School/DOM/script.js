@@ -72,3 +72,12 @@ function changeText(){
         para.style.display = "none";   // Hide it
       }
     }
+
+let btn=document.querySelector("#colorBtn");
+let boxes= document.querySelectorAll(".box");
+
+btn.addEventListener("click",function(){
+  boxes.forEach(function(box){
+    box.style.backgroundColor="orange";
+  });
+});
