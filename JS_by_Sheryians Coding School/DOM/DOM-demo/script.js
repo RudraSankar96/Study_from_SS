@@ -12,3 +12,6 @@ img.style.boxShadow = "0 4px 10px rgba(0,0,0,0.2)";
 img.style.maxWidth = "100%";
 
 heroSection.appendChild(img);
+// Step 6: Change the heading text content using DOM
+const heading = document.querySelector(".hero h1");
+heading.textContent = "DOM Project: Interactive Demo Page";
