@@ -114,3 +114,12 @@ button:hover {
   transform: scale(1.05);
   opacity: 0.9;
 }
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #ddd;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  border-top: 1px solid #444;
+}
