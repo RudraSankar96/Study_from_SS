@@ -3,3 +3,18 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
 }
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
