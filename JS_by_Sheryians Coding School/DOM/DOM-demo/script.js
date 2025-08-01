@@ -38,3 +38,12 @@ const output = document.getElementById("displayText");
 input.addEventListener("input", () => {
   output.textContent = input.value || "nothing yet";
 });
+// Step 9: Show/Hide image on button click
+const toggleBtn = document.getElementById("toggleImageBtn");
+let isVisible = true;
+
+toggleBtn.addEventListener("click", () => {
+  img.style.display = isVisible ? "none" : "block";
+  toggleBtn.textContent = isVisible ? "Show Image" : "Hide Image";
+  isVisible = !isVisible;
+});
