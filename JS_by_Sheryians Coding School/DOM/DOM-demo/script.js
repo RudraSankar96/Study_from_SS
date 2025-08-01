@@ -31,3 +31,10 @@ function getRandomColor() {
   }
   return color;
 }
+// Step 8: Show input value live
+const input = document.getElementById("userInput");
+const output = document.getElementById("displayText");
+
+input.addEventListener("input", () => {
+  output.textContent = input.value || "nothing yet";
+});
