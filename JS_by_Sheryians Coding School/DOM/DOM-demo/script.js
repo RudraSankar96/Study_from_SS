@@ -15,3 +15,19 @@ heroSection.appendChild(img);
 // Step 6: Change the heading text content using DOM
 const heading = document.querySelector(".hero h1");
 heading.textContent = "DOM Project: Interactive Demo Page";
+// Step 7: Change background color on button click
+const btn = document.getElementById("changeColorBtn");
+
+btn.addEventListener("click", () => {
+  document.body.style.backgroundColor = getRandomColor();
+});
+
+// Helper function to generate a random color
+function getRandomColor() {
+  const letters = "0123456789ABCDEF";
+  let color = "#";
+  for(let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
