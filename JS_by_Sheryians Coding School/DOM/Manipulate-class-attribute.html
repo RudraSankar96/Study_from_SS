@@ -1,0 +1,46 @@
+<!-- 2. Manipulate the Class Attribute
+You can add, remove, or toggle classes on an element using JavaScript. This is helpful for styling or applying animations.
+
+1.classList.add(): Adds a class to an element.
+2.classList.remove(): Removes a class from an element.
+3.classList.toggle(): Toggles a class (adds it if it's not present, removes it if it is). -->
+
+<html>
+  <head>
+    <style>
+      .highlight {
+        color: red;
+        font-weight: bold;
+      }
+      .bold {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="example" class="bold">
+      This is a text element with the "bold" class.
+    </div>
+
+    <button onclick="addClass()">Add 'highlight' Class</button>
+    <button onclick="removeClass()">Remove 'bold' Class</button>
+    <button onclick="toggleClass()">Toggle 'highlight' Class</button>
+    <script>
+      function addClass() {
+        document.getElementById("example").classList.add("highlight");
+      }
+      function removeClass() {
+        document.getElementById("example").classList.remove("bold");
+      }
+      function toggleClass() {
+        document.getElementById("example").classList.toggle("highlight");
+      }
+    </script>
+  </body>
+</html>
+
+<!-- In this example
+
+Adding a Class (addClass()): When you click the "Add 'highlight' Class" button, the highlight class is added to the div element with the id="example". This changes the text color to red and makes it bold (as defined in the CSS).
+Removing a Class (removeClass()): When you click the "Remove 'bold' Class" button, the bold class is removed from the div, which removes the bold styling from the text.
+Toggling a Class (toggleClass()): When you click the "Toggle 'highlight' Class" button, the highlight class is either added or removed, depending on whether it's already present. If the class is present, it will be removed; if not, it will be added. -->
