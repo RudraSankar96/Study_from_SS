@@ -87,5 +87,6 @@ let a =document.querySelector("a")
 
 btn2.addEventListener("click",function(){
   a.innerText = "Go to YouTube";
+  // Example of setAttribute
   a.setAttribute ("href","https://www.youtube.com/");
 });
