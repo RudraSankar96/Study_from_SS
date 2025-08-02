@@ -12,11 +12,14 @@ function addTask(){
 
   let delBtn = document.createElement("button");
   delBtn.textContent = "Delete";
-  delBtn.onclick = function(){
-    li.remove();
+  // ✂️ Add fade-out effect before deletion
+  delBtn.onclick = function () {
+    li.classList.add("fade-out");
+    setTimeout(() => li.remove(), 400); // Remove after animation
   };
 
   li.appendChild(delBtn);
   document.getElementById("taskList").appendChild(li);
-  input.vlaue = ""; //clear input field
+
+  input.value = ""; // Clear input
 }
