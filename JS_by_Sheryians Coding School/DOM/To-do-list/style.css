@@ -1,19 +1,56 @@
-body{
-    font-family: Arial, sans-serif;
-    background: #e1f788;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 60px;
+/* === Base Styles === */
+body {
+  font-family: Arial, sans-serif;
+  background: #e1f788;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.todo-container{
-    background: #fff;
-    padding: 20px 30px;
- border-radius: 10px;
+/* === Wrapper === */
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* === Login Form === */
+.formPage {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 350px;
+}
+
+#submit {
+  padding: 9px 16px;
+  background-color: #b72589;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+#submit:hover {
+  background-color: #0056b3;
+}
+
+/* === To-Do List === */
+.todo-container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
   box-shadow: 0 0 12px rgba(0,0,0,0.2);
   width: 350px;
 }
+
 h2 {
   text-align: center;
 }
@@ -43,6 +80,7 @@ button:hover {
   background-color: #0056b3;
 }
 
+/* === Task Items === */
 ul {
   list-style-type: none;
   padding: 0;
@@ -65,7 +103,7 @@ li button {
   border-radius: 4px;
 }
 
-/* Animation keyframes */
+/* === Animations === */
 @keyframes fadeInSlide {
   from {
     opacity: 0;
@@ -88,12 +126,10 @@ li button {
   }
 }
 
-/* Add animation when item enters */
 li.animated {
   animation: fadeInSlide 0.3s ease forwards;
 }
 
-/* Class for fade-out effect */
 .fade-out {
   animation: fadeOut 0.4s ease forwards;
 }

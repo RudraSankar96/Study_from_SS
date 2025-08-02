@@ -1,8 +1,8 @@
-function addTask(){
-  let input= document.getElementById("taskInput");
+function addTask() {
+  let input = document.getElementById("taskInput");
   let taskText = input.value.trim();
 
-  if (taskText=== ""){
+  if (taskText === "") {
     alert("Please enter a task");
     return;
   }
@@ -12,14 +12,14 @@ function addTask(){
 
   let delBtn = document.createElement("button");
   delBtn.textContent = "Delete";
-  // ✂️ Add fade-out effect before deletion
   delBtn.onclick = function () {
     li.classList.add("fade-out");
-    setTimeout(() => li.remove(), 400); // Remove after animation
+    setTimeout(() => li.remove(), 400);
   };
 
   li.appendChild(delBtn);
   document.getElementById("taskList").appendChild(li);
 
-  input.value = ""; // Clear input
+  input.value = "";
 }
+
