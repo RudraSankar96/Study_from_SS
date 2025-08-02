@@ -133,3 +133,48 @@ li.animated {
 .fade-out {
   animation: fadeOut 0.4s ease forwards;
 }
+
+/* === Responsive for Mobile === */
+@media (max-width: 600px) {
+  .formPage,
+  .todo-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .input-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  li button {
+    align-self: flex-end;
+  }
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.formPage input[type="text"],
+.formPage input[type="password"] {
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
