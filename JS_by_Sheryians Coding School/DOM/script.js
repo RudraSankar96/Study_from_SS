@@ -118,3 +118,7 @@ document.getElementById("hoverDiv").addEventListener("mouseover", function () {
 document.getElementById("dblClickPara").addEventListener("dblclick", function () {
     this.style.color = "red";
   });
+
+document.getElementById("myInput").addEventListener("keydown", function (event) {
+    console.log("Key pressed:", event.key);
+  });
