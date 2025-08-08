@@ -103,22 +103,27 @@ p.addEventListener("click",red);
 // example of removeEventlistner.
 p.removeEventListener("click",rem);
 
+// ✅ 1. Click Event
 document.getElementById("clickBtn").addEventListener("click",function(){
   alert("Button was clicked");
-})
+});
 
+// ✅ 2. Mouseover (Hover) Event
  document.getElementById("hoverDiv").addEventListener("mouseover", function () {
     this.style.backgroundColor = "skyblue";
   });
-   
+
+// ✅ 3. Double Click Event
 document.getElementById("hoverDiv").addEventListener("mouseover", function () {
     this.style.backgroundColor = "skyblue";
   });
-
+// ✅ 4. Key Press Event (on input)
 document.getElementById("dblClickPara").addEventListener("dblclick", function () {
     this.style.color = "red";
   });
 
+//  ✅ 5. Form Submit Event 
 document.getElementById("myInput").addEventListener("keydown", function (event) {
     console.log("Key pressed:", event.key);
   });
+
