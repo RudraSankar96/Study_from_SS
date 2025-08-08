@@ -114,3 +114,7 @@ document.getElementById("clickBtn").addEventListener("click",function(){
 document.getElementById("hoverDiv").addEventListener("mouseover", function () {
     this.style.backgroundColor = "skyblue";
   });
+
+document.getElementById("dblClickPara").addEventListener("dblclick", function () {
+    this.style.color = "red";
+  });
