@@ -150,3 +150,13 @@ function sayHello() {
     btn1.removeEventListener("click", sayHello);
     btn1.innerText = "Event Removed!";
   });
+// ✅ 9. Multiple Events (mouseenter & mouseleave)
+const box = document.getElementById("box");
+
+  box.addEventListener("mouseenter", () => {
+    box.style.background = "green";
+  });
+
+  box.addEventListener("mouseleave", () => {
+    box.style.background = "coral";
+  });
