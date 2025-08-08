@@ -127,3 +127,7 @@ document.getElementById("myInput").addEventListener("keydown", function (event) 
     console.log("Key pressed:", event.key);
   });
 
+// ✅ 6. Window Scroll Event
+window.addEventListener("scroll", function () {
+    console.log("Scrolled to", window.scrollY);
+  });
