@@ -93,6 +93,12 @@ btn2.addEventListener("click",function(){
 
 // Example of addEventListner.
 let p = document.querySelector("p5");
-p.addEventListener("click",function(){
-  p.style.color="purple";
-})
+function red(){
+  p.style.color="red";
+}
+function rem(){
+  p.style.backgroundColor="lightblue";
+}
+p.addEventListener("click",red);
+// example of removeEventlistner.
+p.removeEventListener("click",rem);
