@@ -90,3 +90,9 @@ btn2.addEventListener("click",function(){
   // Example of setAttribute
   a.setAttribute ("href","https://www.youtube.com/");
 });
+
+// Example of addEventListner.
+let p = document.querySelector("p5");
+p.addEventListener("click",function(){
+  p.style.color="purple";
+})
