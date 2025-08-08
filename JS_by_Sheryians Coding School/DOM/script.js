@@ -136,3 +136,17 @@ window.addEventListener("scroll", function () {
 window.addEventListener("resize", function () {
     console.log("Window resized to", window.innerWidth, "x", window.innerHeight);
   });
+
+// ✅ 8. Add/Remove Event Dynamically
+function sayHello() {
+    alert("Hello!");
+  }
+
+  const btn1 = document.getElementById("btn1");
+  btn1.addEventListener("click", sayHello);
+
+  // Remove the event after first click
+  btn1.addEventListener("click", function () {
+    btn1.removeEventListener("click", sayHello);
+    btn1.innerText = "Event Removed!";
+  });
