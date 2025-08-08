@@ -102,3 +102,7 @@ function rem(){
 p.addEventListener("click",red);
 // example of removeEventlistner.
 p.removeEventListener("click",rem);
+
+document.getElementById("clickBtn").addEventListener("click",function(){
+  alert("Button was clicked");
+})
