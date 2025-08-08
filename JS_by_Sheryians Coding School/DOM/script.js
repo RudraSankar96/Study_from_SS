@@ -131,3 +131,8 @@ document.getElementById("myInput").addEventListener("keydown", function (event) 
 window.addEventListener("scroll", function () {
     console.log("Scrolled to", window.scrollY);
   });
+
+// ✅ 7. Window Resize Event
+window.addEventListener("resize", function () {
+    console.log("Window resized to", window.innerWidth, "x", window.innerHeight);
+  });
