@@ -106,3 +106,11 @@ p.removeEventListener("click",rem);
 document.getElementById("clickBtn").addEventListener("click",function(){
   alert("Button was clicked");
 })
+
+ document.getElementById("hoverDiv").addEventListener("mouseover", function () {
+    this.style.backgroundColor = "skyblue";
+  });
+   
+document.getElementById("hoverDiv").addEventListener("mouseover", function () {
+    this.style.backgroundColor = "skyblue";
+  });
