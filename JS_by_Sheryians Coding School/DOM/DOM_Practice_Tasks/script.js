@@ -4,4 +4,4 @@ input.addEventListener("input",function(dets){
     if(dets.data !== null){
         console.log(dets.data);
     }
-})
+})  
