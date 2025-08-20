@@ -5,3 +5,8 @@ input.addEventListener("input",function(dets){
         console.log(dets.data);
     }
 })  
+
+let see = document.querySelector("select");
+see.addEventListener("change",function(dets){
+    console.log(dets.target.value);
+});
