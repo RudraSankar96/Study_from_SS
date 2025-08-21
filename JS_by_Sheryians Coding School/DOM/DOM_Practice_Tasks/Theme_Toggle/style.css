@@ -1,0 +1,9 @@
+*{box-sizing:border-box}body{font-family:system-ui,Arial,sans-serif;margin:0;transition:background .3s,color .3s}
+.container{max-width:720px;margin:6rem auto;padding:2rem}
+button{padding:.8rem 1.2rem;border:0;border-radius:10px;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.15)}
+/* light */
+body{background:#f6f7fb;color:#1f2937}
+button{background:#111827;color:#fff}
+/* dark */
+body.dark{background:#0b1020;color:#e5e7eb}
+body.dark button{background:#e5e7eb;color:#111827}
