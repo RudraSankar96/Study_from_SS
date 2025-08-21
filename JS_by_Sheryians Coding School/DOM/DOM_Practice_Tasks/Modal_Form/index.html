@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modal + Form Validation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>🪟 Modal + Validation</h1>
+    <button id="open">Open Form</button>
+  </main>
+  <div class="overlay" id="overlay" hidden></div>
+  <div class="modal" id="modal" role="dialog" aria-modal="true" hidden>
+    <header>
+      <h2>Contact</h2>
+      <button id="close" aria-label="Close">✖</button>
+    </header>
+    <form id="form" novalidate>
+      <label> Name
+        <input id="name" required minlength="2" />
+        <small class="error" data-for="name"></small>
+      </label>
+      <label> Email
+        <input id="email" type="email" required />
+        <small class="error" data-for="email"></small>
+      </label>
+      <button>Submit</button>
+    </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
