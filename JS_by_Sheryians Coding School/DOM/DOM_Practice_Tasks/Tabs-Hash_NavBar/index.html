@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tabs + URL Hash Sync</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>🗂️ Tabs with Hash</h1>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="home">Home</button>
+      <button role="tab" data-tab="about">About</button>
+      <button role="tab" data-tab="contact">Contact</button>
+    </nav>
+    <section id="home" role="tabpanel" hidden>
+      <h2>Home</h2><p>Welcome to the home panel.</p>
+    </section>
+    <section id="about" role="tabpanel" hidden>
+      <h2>About</h2><p>This is a simple tabs component synced with the URL hash.</p>
+    </section>
+    <section id="contact" role="tabpanel" hidden>
+      <h2>Contact</h2><p>Reach us at <a href="#">email@example.com</a>.</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
