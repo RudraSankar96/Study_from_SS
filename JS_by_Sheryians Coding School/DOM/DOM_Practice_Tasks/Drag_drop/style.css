@@ -1,0 +1,6 @@
+*{box-sizing:border-box}body{font-family:system-ui,Arial,sans-serif;background:#fafafa;margin:0}
+.container{max-width:720px;margin:3rem auto;padding:1rem}
+ul{list-style:none;padding:0;margin:0;display:grid;gap:.5rem}
+li{padding:.8rem 1rem;background:white;border:1px solid #e5e7eb;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,.06);cursor:grab}
+li.dragging{opacity:.6}
+.placeholder{height:48px;border:2px dashed #a3a3a3;border-radius:8px}
